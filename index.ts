@@ -21,4 +21,4 @@ console.log(fruites[0]);
 const list: any[] = ["Banana", 10, true];
 console.log(list[2]);
 
-const book: [string, number, boolean] = ["magazine", 1500, true];
+const book: [string, number, boolean] = ["magazine", 1500, true]; 
