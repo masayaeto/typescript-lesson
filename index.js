@@ -28,3 +28,7 @@ var coffee = {
     size: CoffeeSize.SHORT
 };
 coffee.size = CoffeeSize.TALL;
+var anything = "hello";
+anything = true;
+anything = 10;
+console.log(anything);
