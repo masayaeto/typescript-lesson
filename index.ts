@@ -36,3 +36,10 @@ const coffee = {
 }
 
 coffee.size = CoffeeSize.TALL;
+
+let anything: any = "hello"
+
+anything = true;
+anything = 10
+
+console.log(anything);
