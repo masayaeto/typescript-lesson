@@ -16,3 +16,15 @@ console.log(fruites[0]);
 var list = ["Banana", 10, true];
 console.log(list[2]);
 var book = ["magazine", 1500, true];
+var CoffeeSize;
+(function (CoffeeSize) {
+    CoffeeSize["SHORT"] = "SHORT";
+    CoffeeSize["TALL"] = "TALL";
+    CoffeeSize["GRANDE"] = "GRANDE";
+    CoffeeSize["VENTI"] = "VWNTI";
+})(CoffeeSize || (CoffeeSize = {}));
+var coffee = {
+    hot: true,
+    size: CoffeeSize.SHORT
+};
+coffee.size = CoffeeSize.TALL;

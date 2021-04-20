@@ -22,3 +22,17 @@ const list: any[] = ["Banana", 10, true];
 console.log(list[2]);
 
 const book: [string, number, boolean] = ["magazine", 1500, true]; 
+
+enum CoffeeSize {
+  SHORT = "SHORT",
+  TALL = "TALL",
+  GRANDE = "GRANDE",
+  VENTI = "VWNTI"
+}
+
+const coffee = {
+  hot: true,
+  size: CoffeeSize.SHORT
+}
+
+coffee.size = CoffeeSize.TALL;
