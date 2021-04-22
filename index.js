@@ -32,3 +32,5 @@ var anything = "hello";
 anything = true;
 anything = 10;
 console.log(anything);
+var unionType = 10;
+var unionTypes = [10, "hello"];
