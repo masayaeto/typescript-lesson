@@ -43,3 +43,6 @@ anything = true;
 anything = 10
 
 console.log(anything);
+
+let unionType:number | string = 10;
+let unionTypes: (number | string)[] = [10, "hello"]
