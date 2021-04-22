@@ -45,4 +45,10 @@ anything = 10
 console.log(anything);
 
 let unionType:number | string = 10;
-let unionTypes: (number | string)[] = [10, "hello"]
+let unionTypes: (number | string)[] = [10, "hello"];
+
+function add(num1: number, num2: number): number {
+  return num1 + num2;
+}
+
+add(10, 20);
